@@ -1,0 +1,19 @@
+# 원본 데이터와 분석 실행 결과
+/data/
+/work/
+/raw/
+/out_round2/
+/fig_round2/
+/report_figs/
+/.chart-data-*/
+*.zip
+
+# 로컬 환경 설정과 캐시
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
